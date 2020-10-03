@@ -1,4 +1,5 @@
 FROM openjdk:8-jdk-alpine
 VOLUME /tmp
-ADD target/*.jar restapp.jar
+EXPOSE 8080
+ADD target/*.jar openshift.jar
 ENTRYPOINT ["java","-jar","openshift.jar"]
