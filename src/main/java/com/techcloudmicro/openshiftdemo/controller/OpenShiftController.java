@@ -8,7 +8,7 @@ public class OpenShiftController {
 	
 	@GetMapping("/hello")
 	public String hello() {
-		return "Hello Welcome to Openshift1";
+		return "Hello Welcome to Openshift-V2";
 		
 	}
 
